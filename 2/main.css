@@ -6,6 +6,7 @@ body {
   background: rgba(0, 24, 33, 1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 a {
@@ -30,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
 }
 
+.main-page-wrapper {
+  background: url("./img/1.png") center top no-repeat, url("./img/2.png") center bottom no-repeat;
+}
+
 .container {
   margin: 0 auto;
   width: 1141px;
@@ -39,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 123px;
   position: relative;
   margin-bottom: 150px;
+  top: 26px;
 }
 
 .logo {
@@ -46,15 +52,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 30px;
   display: block;
   position: absolute;
-  top: 20px;
+  top: 3px;
   left: 0px;
 }
 
 .menu {
   position: absolute;
   text-decoration: none;
-  top: 60px;
-  margin-left: 250px;
+  top: 16px;
+  left: 164px;
 }
 
 .menu__item {
@@ -81,8 +87,7 @@ text-decoration: none;
   font-style: normal;
   text-align: right;
   position: absolute;
-  top: 20px;
-  left: 547px;
+  right: 0;
 }
 .contacts__phone {
   text-decoration: none;
@@ -133,20 +138,11 @@ text-decoration: none;
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
   overflow: hidden;
-}
-
-.hero__button-text {
-  text-decoration: none;
 }
 
 .hero__button:hover {
   background: rgba(218, 1, 0, 1);
-}
-
-.container {
-margin-bottom: 175px;
 }
 
 .tours {
@@ -238,6 +234,10 @@ height: 26px;
   font-size: 14px;
 }
 
+.news {
+  margin-bottom: 124px;
+}
+
 .news__title {
   color: white;
   margin-bottom: 51px;
@@ -257,6 +257,7 @@ height: 26px;
   border-radius: 7px;
   overflow: hidden;
   margin-right: 22px;
+  margin-bottom: 124px;
 }
 
 .news__item:last-child {
@@ -298,7 +299,6 @@ height: 26px;
 .paginator {
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 124px;
 }
 
 .paginator__display {
@@ -315,7 +315,7 @@ height: 26px;
   vertical-align: middle;
 }
 
-.paginator__link {
+.paginator__item-link {
   display: block;
   width: 32px;
   height: 32px;
@@ -336,7 +336,9 @@ height: 26px;
   background: rgba(255, 255, 255, 1);
   color: rgba(245, 23, 14, 1);
 }
-
+.about-us {
+  margin-bottom: 53px;
+}
 .about-us::before {
   content: "";
   display: inline-block;
@@ -361,7 +363,6 @@ height: 26px;
   color: rgba(0, 0, 0, 1);
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 37px;
 }
 
 .about-us__text {
@@ -393,10 +394,10 @@ height: 26px;
 }
 
 .socials__item {
-  position: absolute;
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
+  position: absolute;
 }
 
 .socials__item:last-child {
@@ -416,19 +417,19 @@ height: 26px;
 }
 
 .socials__item--tg .socials__link {
-  background-image: url("./img/photo_2023-09-27_21-27-32.jpg") center center / cover no-repeat;
+  background-image: url("./img/telegram.png") center center / cover no-repeat;
 }
 
 .socials__item--vk .socials__link {
-  background-image: url("./img/photo_2023-09-27_21-27-45.jpg") center center / cover no-repeat;
+  background-image: url("./img/vk.png") center center / cover no-repeat;
 }
 
 .socials__item--fb .socials__link {
-  background-image: url("./img/photo_2023-09-27_21-27-58.jpg") center center / cover no-repeat;
+  background-image: url("./img/f.png") center center / cover no-repeat;
 }
 
 .socials__item--inst .socials__link {
-  background-image: url("./img/photo_2023-09-27_21-28-13.jpg") center center / cover no-repeat;
+  background-image: url("./img/in.png") center center / cover no-repeat;
 }
 
 .footer-container__content {
