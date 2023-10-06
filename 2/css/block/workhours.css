@@ -1,0 +1,15 @@
+.workhours {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+}
+
+.workhours__clock-text {
+  font-weight: 700;
+  color: rgba(30, 31, 32, 1);
+}
+
+.workhours__clock-lunchtime {
+  font-weight: 600;
+  color: rgba(30, 31, 32, 1);
+}

@@ -1,0 +1,28 @@
+.adventures {
+  margin-bottom: 69px;
+}
+
+.adventure {
+  display: flex;
+}
+
+.adventure__img {
+  width: 30%;
+  margin-right: 7%;
+}
+
+.adventure__content {
+  flex: 1px;
+}
+
+.adventure__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 28.5px;
+  color: #000;
+}
+
+.adventure__desc {
+  line-height: 1.7;
+  margin-bottom: 34.5px;
+}

@@ -1,0 +1,26 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 410px;
+}
+
+
+.hero {
+  width: 45%;
+  margin-bottom: 246px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 27px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero__text {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 45px;
+}

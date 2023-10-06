@@ -1,0 +1,62 @@
+.button{
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.hero__button {
+  background-color: #F5170E;
+  color: #FFFFFF;
+  padding: 18px 40px;
+}
+
+.hero__button:hover {
+  background-color: #DA0100;
+}
+
+.tours__button {
+  padding: 18px 29px;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+}
+
+.tours__button:hover {
+  background-color: #F5170E;
+  color: #FFFFFF;
+}
+
+.tours__button--active {
+  background-color: #F5170E;
+  color: #FFFFFF;
+}
+
+.about-us__button {
+  background-color: #F5170E;
+  color: #FFFFFF;
+  padding: 18px 40px;
+}
+
+.hero__button:hover {
+  background-color: #DA0100;
+}
+
+.hero__button-active {
+  background-color: #DA0100;
+}
+
+.adventure__button {
+  padding: 18px 40px;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+}
+
+.adventure__button:hover {
+  background-color: #F5170E;
+  color: #FFFFFF;
+}
+
+.adventure__button--active {
+  background-color: #F5170E;
+  color: #FFFFFF;
+}

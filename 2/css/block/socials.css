@@ -1,0 +1,37 @@
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 74px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link{
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.socials__list {
+  top: 49px;
+  right: 265px;
+}
+
+.socials__item--tg .socials__link {
+  background-image: url("../../img/telegram.png") center center / cover no-repeat;
+}
+
+.socials__item--vk .socials__link {
+  background-image: url("../../img/vk.png") center center / cover no-repeat;
+}
+
+.socials__item--fb .socials__link {
+  background-image: url("../../img/f.png") center center / cover no-repeat;
+}
+
+.socials__item--inst .socials__link {
+  background-image: url("../../img/in.png") center center / cover no-repeat;
+}
