@@ -1,0 +1,53 @@
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 248px;
+  width: 591px;
+  background: url("../../img/welcome/shades.png") center center / cover no-repeat;
+}
+
+.cental__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cental__title {
+  margin-bottom: 52px;
+  font-size: 18px;
+  color: #FFF;
+}
+
+.central--asia {
+  opacity: 0;
+  animation: zoom .9s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.15);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  80% {
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

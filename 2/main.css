@@ -2,13 +2,21 @@
 
 @import url("./css/block/adventure.css");
 
+@import url("./css/block/avatar.css");
+
 @import url("./css/block/breadcrumbs.css");
 
 @import url("./css/block/button.css");
 
+@import url("./css/block/central.css");
+
 @import url("./css/block/contacts.css");
 
+@import url("./css/block/controls.css");
+
 @import url("./css/block/footer.css");
+
+@import url("./css/block/form.css");
 
 @import url("./css/block/header.css");
 
@@ -32,11 +40,19 @@
 
 @import url("./css/block/partners.css");
 
+@import url("./css/block/review.css");
+
+@import url("./css/block/separator.css");
+
 @import url("./css/block/socials.css");
+
+@import url("./css/block/tag.css");
 
 @import url("./css/block/top-line.css");
 
 @import url("./css/block/tours.css");
+
+@import url("./css/block/welcome.css");
 
 @import url("./css/block/workhours.css");
 

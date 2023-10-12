@@ -1,7 +1,11 @@
+.socials {
+  margin-right: 73px;
+}
+
 .socials__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 74px;
+  margin-right: 10px;
 }
 
 .socials__item:last-child {
@@ -21,17 +25,17 @@
 }
 
 .socials__item--tg .socials__link {
-  background-image: url("../../img/telegram.png") center center / cover no-repeat;
+  background: url("../../img/telegram.png") center center / cover no-repeat;
 }
 
 .socials__item--vk .socials__link {
-  background-image: url("../../img/vk.png") center center / cover no-repeat;
+  background: url("../../img/vk.png") center center / cover no-repeat;
 }
 
 .socials__item--fb .socials__link {
-  background-image: url("../../img/f.png") center center / cover no-repeat;
+  background: url("../../img/f.png") center center / cover no-repeat;
 }
 
 .socials__item--inst .socials__link {
-  background-image: url("../../img/in.png") center center / cover no-repeat;
+  background: url("../../img/in.png") center center / cover no-repeat;
 }

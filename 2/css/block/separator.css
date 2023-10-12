@@ -1,0 +1,20 @@
+.separator {
+  background: url("../../img/separator/Rectangle.png") lightgray 50% / cover no-repeat;
+  background: url("../../img/separator/Rectangle.png"), right lightgray 50% / cover no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+}
+
+.separator__content {
+  max-width: 50%;
+}
+
+.separator__title {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+}

@@ -4,6 +4,9 @@
   font-size: 14px;
   text-transform: uppercase;
   overflow: hidden;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 .hero__button {
   background-color: #F5170E;
@@ -59,4 +62,30 @@
 .adventure__button--active {
   background-color: #F5170E;
   color: #FFFFFF;
+}
+
+.btn--color--red {
+  color: #fff;
+  background: #F5170E;
+  border-radius: 35px;
+}
+
+.btn--color--grey {
+  color: #fff;
+  background: #8E8E8E;
+  border-radius: 35px;
+}
+
+.btn--color--grey:hover {
+  background: #2B2B2B;
+
+}
+
+.btn__color__ginger {
+  color: #FFF;
+  padding: 18px 58px;
+  background: #F5170E;
+  text-decoration: none;
+  border-radius: 35px;
+  font-size: 14px;
 }

@@ -4,10 +4,11 @@
 
 .adventure {
   display: flex;
+  margin-bottom: 49px;
 }
 
 .adventure__img {
-  width: 30%;
+  width: 38%;
   margin-right: 7%;
 }
 
@@ -25,4 +26,10 @@
 .adventure__desc {
   line-height: 1.7;
   margin-bottom: 34.5px;
+}
+
+.adventure__img-elem {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
